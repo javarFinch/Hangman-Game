@@ -851,7 +851,7 @@ public class HangMan implements ActionListener {
 		char[] answer = finalAnswer.toCharArray();
 		for (int i = 0; i < answer.length; i++) {
 			if (answer[i] == ' ') {
-				temp += " ";
+				temp += "    ";
 			} else {
 				temp += "_ ";
 			}
@@ -864,7 +864,7 @@ public class HangMan implements ActionListener {
 		char[] answer = finalAnswer.toCharArray();
 		for (int i = 0; i < answer.length; i++) {
 			if (answer[i] == ' ') {
-				temp += " ";
+				temp += "    ";
 			} else {
 				temp += "_";
 			}
@@ -889,7 +889,7 @@ public class HangMan implements ActionListener {
 		char[] a = finalAnswer.toCharArray();
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] == ' ') {
-				temp += " ";
+				temp += "    ";
 			} else {
 				temp += a[i] + " ";
 			}
